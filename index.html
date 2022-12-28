@@ -4,208 +4,177 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn IT With Us</title>
-    <link rel="stylesheet" href="Style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <title>NetFlix Website Clone</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="header">
+    <div class="header">
       <nav>
-         <a href="index.html"><img src=""></a>
-         <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" onclick="hideMenu()"></i>
-            <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">COURSE</a></li>
-                <li><a href="">BLOG</a></li>
-                <li><a href="">CONTACT US</a></li>
-               </ul>
-         </div>
-           <i class="fa fa-bars" onclick="showMenu()"></i>
+        <img src="logo.png" class="logo">
+        <div>
+            <button class="language-btn">English <img src="down-icon.png"></button>
+            <button>Sign In</button>
+        </div>
       </nav>
-    <div class="text-box">
-       <h1>World's Biggest IT Website</h1>
-       <p>Making website is now one of the easiest thing in the world.</br>
-         You just need to learn HTML,CSS,JavaScript and you are good to go.
-         </p>
-          <a href="" class="hero-btn">Vist Us To Know More</a>
+      <div class="header-content">
+        <h1>Unlimited movies, TV shows and more.</h1>
+        <h3>Watch anywhere. Cancel anytime</h3>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <form class="email-signup">
+            <input type="email" placeholder="Email address" required>
+            <button type="submit">Get Started</button>
+        </form>
+      </div>
     </div>
-       
-    </section>
-    
-    <!------ Course ------>
 
-     <section class="course">
-         <h1>Course We Offer</h1>
-         <p>Lorem ipsum dolor sit ammet, consectetur adipiscing elit</p>
-          
-         <div class="row">
-           <div class="course-col">
-            <h3>Intermediate</h3>
-            <p>Lorem ipsum dolor sit ammet, consectetur adipiscing elit.
-              Pellentesque aliquet turpis nulla, eleifend faucibus est
-              sollictudin ut, Maecenas ut venenatis ex, et dapibus purus
-              Donec sit.</p>
-           </div>
-         </div>
-         <div class="course-col">
-          <h3>Degree</h3>
-          <p>Lorem ipsum dolor sit ammet, consectetur adipiscing elit.
-            Pellentesque aliquet turpis nulla, eleifend faucibus est
-            sollictudin ut, Maecenas ut venenatis ex, et dapibus purus
-            Donec sit.</p>
-         </div>
-         <div class="course-col">
-          <h3>Post Graduation</h3>
-          <p>Lorem ipsum dolor sit ammet, consectetur adipiscing elit.
-            Pellentesque aliquet turpis nulla, eleifend faucibus est
-            sollictudin ut, Maecenas ut venenatis ex, et dapibus purus
-            Donec sit.</p>
-         </div>
-     </section>
-
-     <!------ campus ------>
-     
-    <section class="campus">
-
-     <h1>Our Global Campus</h1>
-     <p>Lorem ipsum dolor sit ammet, consectetur adipiscing elit</p>
-
-     <div class="row">
-        <div class="campus-col">
-           <img src="BAN.jpg">
-           <div class="layer">
-            <h3>BANGKOK</h3>
-           </div>
+    <div class="features">
+        <div class="row">
+            <div class="text-col">
+                <h2>Enjoy on your TV.</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray 
+                players and more.</p>
+            </div>
+            <div class="img-col">
+                <img src="feature-1.png">
+            </div>
         </div>
-        <div class="campus-col">
-          <img src="h.webp">
-          <div class="layer">
-           <h3>GREECE</h3>
-          </div>
-       </div>
-       <div class="campus-col">
-        <img src="Tokyo.jpg">
-        <div class="layer">
-         <h3>TOKYO</h3>
+        <div class="row">
+            <div class="img-col">
+                <img src="feature-2.png">
+            </div>
+            <div class="text-col">
+                <h2>Download your shows to watch offline.</h2>
+                <p>Save your favourities easily and always have something to watch.</p>
+            </div>
+            
         </div>
-     </div>
-     </div>
-     
-    </section>
+        <div class="row">
+            <div class="text-col">
+                <h2>Watch everywhere</h2>
+                <p>Stream unlimited movies and TV shows 
+                on your phone,tablet,laptop,and TV.</p>
+            </div>
+            <div class="img-col">
+                <img src="feature-3.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="img-col">
+                <img src="feature-4.png">
+            </div>
+            <div class="text-col">
+                <h2>Create profiles for children.</h2>
+                <p>Send children on adventures with their favourite characters in a space
+                made just for them-free with your membership.</p>
+            </div>
+           
+        </div>
+    </div>
 
-    <!------ Facilities ------>
+    <div class="faq">
+        <h2>Frequently Asked Question</h2>
+        <ul class="accordion">
+            <li>
+                <input type="radio" name="accordion" id="first">
+                <label for="first">What is Netflix?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quam reprehenderit ex possimus autem hic totam provident placeat,
+                         distinctio fuga nam ipsa eveniet enim atque ratione suscipit 
+                         quaerat et aperiam corporis!</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="second">
+                <label for="second">How much does Netflix cost?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quam reprehenderit ex possimus autem hic totam provident placeat,
+                         distinctio fuga nam ipsa eveniet enim atque ratione suscipit 
+                         quaerat et aperiam corporis!</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="third">
+                <label for="third">Where can I watch?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quam reprehenderit ex possimus autem hic totam provident placeat,
+                         distinctio fuga nam ipsa eveniet enim atque ratione suscipit 
+                         quaerat et aperiam corporis!</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fourth">
+                <label for="fourth">Hoe do I cancel?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quam reprehenderit ex possimus autem hic totam provident placeat,
+                         distinctio fuga nam ipsa eveniet enim atque ratione suscipit 
+                         quaerat et aperiam corporis!</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fifth">
+                <label for="fifth">What can I watch on Netflix?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quam reprehenderit ex possimus autem hic totam provident placeat,
+                         distinctio fuga nam ipsa eveniet enim atque ratione suscipit 
+                         quaerat et aperiam corporis!</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="sixth">
+                <label for="sixth">Is Netflix good for kids?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quam reprehenderit ex possimus autem hic totam provident placeat,
+                         distinctio fuga nam ipsa eveniet enim atque ratione suscipit 
+                         quaerat et aperiam corporis!</p>
+                </div>
+            </li>
+        </ul>
+        <small>Ready to watch? Enter your email to create or restart your membership.</small>
+        <form class="email-signup">
+            <input type="email" placeholder="Email address" required>
+            <button type="submit">Get Started</button>
+        </form>
+    </div>
 
-    <section class="facilities">
-       <h1>Our Facilities</h1>
-       <p>Lorem ipsum dolor sit ammet, consectetur adipiscing elit</p>
 
-       <div class="row">
-         <div class="facilities-col">
-          <img src="images.jpg">
-          <h3>IT Office Meeting</h3>
-          <p>Lorem ipsum dolor sit ammet, consectetur adipiscing elit.
-            Pellentesque aliquet turpis nulla</p>
-         </div>
-
-         <div class="facilities-col">
-          <img src="images (2).jpg">
-          <h3>Many Types Of Work On Desktop</h3>
-          <p>Lorem ipsum dolor sit ammet, consectetur adipiscing elit.
-            Pellentesque aliquet turpis nulla</p>
-         </div>
-
-         <div class="facilities-col">
-          <img src="download (3).jpg">
-          <h3>Cloud Meeting On Website</h3>
-          <p>Lorem ipsum dolor sit ammet, consectetur adipiscing elit.
-            Pellentesque aliquet turpis nulla</p>
-         </div>
-       </div>
-
-    </section>
-
-   <!------testimonials------>
-
-   <section class="testimonials">
-     <h1>What Our Students Says</h1>
-     <p>Lorem ipsum dolor sit ammet, consectetur adipiscing elit.
-      Pellentesque aliquet turpis nulla</p>
+    <div class="footer">
+      <h2>Question? call 03243401707</h2>
 
       <div class="row">
+        <div class="col">
+            <a href="#">FAQ</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Privacy</a>
+            <a href="#">Speed Test</a>
         </div>
-        <div class="testimonial-col">
-          <img src="downloa.jpg">
-           <div>
-            <p>Lorem ipsum dolor sit ammet, consectetur adipiscing elit.
-              Pellentesque aliquet turpis nulla, eleifend faucibus est
-              sollictudin ut, Maecenas ut venenatis ex, et dapibus purus
-              Donec sit.</p>
-              <h3>Rosie Gomez</h3>
-            </div>
+        <div class="col">
+            <a href="#">Help Center</a>
+            <a href="#">Jobs</a>
+            <a href="#">Cookies Preferences</a>
+            <a href="#">Legal Notices</a>
         </div>
-        <div class="testimonial-col">
-          <img src="boy.jpg">
-           <div>
-            <p>Lorem ipsum dolor sit ammet, consectetur adipiscing elit.
-              Pellentesque aliquet turpis nulla, eleifend faucibus est
-              sollictudin ut, Maecenas ut venenatis ex, et dapibus purus
-              Donec sit.</p>
-              <h3>David Cruise</h3>
-            </div>
+        <div class="col">
+            <a href="#">Account</a>
+            <a href="#">Ways to Watch</a>
+            <a href="#">Corporate Information</a>
+            <a href="#">Only on Netflix</a>
         </div>
-        <div class="testimonial-col">
-          <img src="down.jpg">
-           <div>
-            <p>Lorem ipsum dolor sit ammet, consectetur adipiscing elit.
-              Pellentesque aliquet turpis nulla, eleifend faucibus est
-              sollictudin ut, Maecenas ut venenatis ex, et dapibus purus
-              Donec sit.</p>
-              <h3>Chris Deep</h3>
-          </div>  
+        <div class="col">
+            <a href="#">Media Center</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Contact Us</a>
+        </div>
       </div>
-   </section>
-
-    <!------call to action ------>
-
-    <section class="cta">
-      <h1>Enroll For Our Various Online Courses<br>Anywhere From The World </h1>
-      <a href="#" class="hero-btn">CONTACT US</a>
-    </section>
-     
-    <!------ footer ------>
+      <button class="language-btn">English <img src="down-icon.png"></button>
+      <p class="copyright-txt">Netflix Pakistan</p>
+    </div>
 
 
-    <section class="footer">
-      <h4>About Us</h4>
-      <p>Lorem ipsum dolor sit ammet, consectetur adipiscing elit.
-        Pellentesque aliquet turpis nulla, eleifend faucibus est<br>
-        sollictudin ut, Maecenas ut venenatis ex, et dapibus purus.</p>
-        
-         <p>Made with Fun</p>
-    </section>
-
-
-
-
-   <!------JavaScript for Toggle Menu------>
-    <script>
-      
-      var navLinks = document.getElementById("navLinks")
-      function showMenu()
-      {
-        navLinks.style.right ="0";
-      }
-      function hideMenu()
-      {
-        navLinks.style.right ="-200px";
-      }
-     
-    </script>
-    
 </body>
 </html>
